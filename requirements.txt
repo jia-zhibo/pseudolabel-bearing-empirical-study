@@ -1,0 +1,9 @@
+# Python 3.10 recommended. Authoritative runs used torch 2.14.1+cpu, threads=10.
+numpy>=1.21,<2.0
+scipy>=1.7
+torch>=1.12
+matplotlib>=3.4
+scikit-learn>=1.0
+tqdm>=4.62
+# optional, only for _final_audit_v7.py (docx cross-checks)
+python-docx>=0.8.11

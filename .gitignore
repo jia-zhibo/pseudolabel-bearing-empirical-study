@@ -1,0 +1,32 @@
+__pycache__/
+*.py[cod]
+*.pth
+*.pt
+.venv/
+venv/
+.ipynb_checkpoints/
+.DS_Store
+
+# Raw datasets: too large and third-party. Download separately.
+data/cwru_real/
+data/pu_data/
+*.mat
+*.rar
+
+# Large intermediate artefacts (not needed to reproduce the tables)
+checkpoints/
+results/revision_cwru_visualization.json
+results/revision_pu_visualization.json
+results/revision_full_instrumented.json
+results/revision_ablation_instrumented.json
+results/_smoke_n20.json
+results/_n20_alive.heartbeat
+results/_smoothing_probe.json
+
+# Manuscript / cover-letter generators (contain personal contact details)
+_gen_*.py
+_patch_*.py
+_verify_*.py
+_check_*.py
+_make_*.py
+*.docx
