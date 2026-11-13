@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Reproduction code and raw results for \"When Does Pseudo-Label Self-Training Help Few-Shot Cross-Domain Bearing Fault Diagnosis?\""
+type: software
+license: "MIT"
+abstract: "Reproduction code and raw per-repetition results for a controlled, reproducible empirical study on few-shot cross-domain bearing fault diagnosis (CWRU and Paderborn / PU, CPU-thread-pinned and fully seeded protocol)."
+authors:
+  - given-names: Huiqiang
+    family-names: Jia
+    affiliation: "School of Information Engineering, Yantai Institute of Technology"
+keywords:
+  - bearing fault diagnosis
+  - pseudo-label self-training
+  - domain adaptation
+  - few-shot learning
+  - reproducibility
+  - CWRU
+  - Paderborn
+repository-code: "https://github.com/jia-zhibo/pseudolabel-bearing-empirical-study"

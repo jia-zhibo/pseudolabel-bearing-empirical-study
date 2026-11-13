@@ -29,8 +29,17 @@ https://github.com/jia-zhibo/pseudolabel-bearing-empirical-study under the MIT l
 
 `https://github.com/jia-zhibo/pseudolabel-bearing-empirical-study`
 
-The replacement text above is ready to paste as-is. If a Zenodo DOI is minted after
-acceptance, append: *"A permanent archive is available at `<ZENODO_DOI>`."*
+The replacement text above is ready to paste as-is. Once the Zenodo GitHub integration
+is enabled and a release has been archived, append: *"A permanent versioned archive is
+available at `<VERSION_DOI>` (concept DOI: `<CONCEPT_DOI>`)."*
+
+## Zenodo integration
+
+Zenodo reads `.zenodo.json` from the repository root when archiving a GitHub release.
+Both `.zenodo.json` and `CITATION.cff` are present: Zenodo uses **only** `.zenodo.json`,
+while GitHub uses `CITATION.cff` for its citation panel. Zenodo archives releases created
+**after** the repository is enabled; earlier releases are not ingested retroactively, so
+a fresh release must be published once the integration is active.
 
 ## Two more places to update
 

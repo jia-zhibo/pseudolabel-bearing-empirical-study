@@ -113,6 +113,19 @@ One-sided paired t-test with the pre-specified alternative `H1: mu(method) > mu(
 `* <=> (p < 0.05 AND Cohen's d > 0)`; all standard deviations use `ddof=1`;
 Holm-Bonferroni, 95% CI, TOST equivalence and noncentral-t power as reported in the paper.
 
+## Zenodo archiving
+
+This repository is configured for Zenodo's GitHub integration. Once the integration is
+enabled, every **new** GitHub release is archived in Zenodo and receives its own version
+DOI, while a concept DOI always resolves to the latest release. Releases published before
+the integration was enabled are not ingested retroactively.
+
+- `.zenodo.json` - deposit metadata read by Zenodo (it takes precedence over `CITATION.cff`)
+- `CITATION.cff` - citation metadata shown by GitHub's "Cite this repository" panel
+- `LICENSE` - MIT, consistent with `"license": "mit"` in `.zenodo.json`
+
+The raw third-party datasets are not part of the archive; see above for how to obtain them.
+
 ## License & funding
 
 MIT (see `LICENSE`). This work was supported by the Shandong Provincial Key Research and

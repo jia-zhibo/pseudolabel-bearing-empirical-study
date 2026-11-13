@@ -1,0 +1,25 @@
+{
+  "title": "Reproduction code and raw results for \"When Does Pseudo-Label Self-Training Help Few-Shot Cross-Domain Bearing Fault Diagnosis?\"",
+  "description": "Reproduction code and raw per-repetition results for a controlled, reproducible empirical study on few-shot cross-domain bearing fault diagnosis. The study compares an unadapted baseline, CORAL, MMD, DANN and confidence-guided pseudo-label self-training (plus a loss-matched pseudo-label variant) on CWRU (cross-load 0 hp to 3 hp) and Paderborn / PU (cross-speed 1500 rpm to 900 rpm), under an explicit CPU-thread-pinned and fully seeded protocol. All tables in the manuscript can be recomputed from the shipped JSON files with compute_statistics.py. The raw third-party datasets are not redistributed; download links and helper scripts are provided in the repository. Supported by the Shandong Provincial Key Research and Development Program (Science and Technology-based SME Innovation Capacity Improvement Project), Grant No. 2025TSGCCZZB0555.",
+  "creators": [
+    {
+      "name": "Jia, Huiqiang",
+      "affiliation": "School of Information Engineering, Yantai Institute of Technology",
+      "type": "ProjectMember"
+    }
+  ],
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "mit",
+  "language": "eng",
+  "keywords": [
+    "bearing fault diagnosis",
+    "pseudo-label self-training",
+    "domain adaptation",
+    "few-shot learning",
+    "reproducibility",
+    "CWRU",
+    "Paderborn",
+    "PyTorch"
+  ]
+}
