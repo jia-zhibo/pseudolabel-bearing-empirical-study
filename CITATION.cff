@@ -8,6 +8,7 @@ authors:
   - given-names: Huiqiang
     family-names: Jia
     affiliation: "School of Information Engineering, Yantai Institute of Technology"
+    orcid: "https://orcid.org/0000-0003-3988-4598"
 keywords:
   - bearing fault diagnosis
   - pseudo-label self-training
